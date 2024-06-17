@@ -22,7 +22,7 @@ body{
 .navtxt{
     height: 70%;
     width: 10em;
-   
+   margin: 2em;
     display: flex;
     border-radius: 15px;
     align-items: center;
@@ -50,38 +50,221 @@ justify-content: center;
 align-items: center;
 
 }
-img1{
+#tra{
+    height:30%;
+    width:30%;
+    background-color: blueviolet;
+    font-size:0.4em;
+}
+#trai{
+    height: 80%;
+    width:30%;
+    background-image: url("https://abhinavs-agency.odoo.com/unsplash/U2eUlPEKIgU/255/career.jpg?unique=a923a15b");
+}
+#img1{
     height:70%;
     
 }
 #txt1{
-    height:45%;
+    height:60%;
     width:100%;
-    background-color: bisque;
+    background: red;
     display: flex;
+    margin-top: 1em;
     gap:2rem;
+    justify-content: center;
+    align-items: center;
 }
 .box{
     height:100%;
     width:30%;
     background-color: blueviolet;
+    font-size:0.4em;
 }
-#img2,#img3,#img4{
+#img2,#img3,#img,#img4{
     height: 60%;
     width:100%;
 }
 p{
     font-size:2em;
 }
+h1{
+    font-size:2em;
+}
+#opening{
+    font-size:2em;
+}
 #txt2{
 
-    height:45%;
+    height:25%;
 width:100%;
-text-align:left;
-background-color:whitesmoke;
+text-align:center;
+background-color:black;
+color:white;
 font-size: 2em;
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
+}
+.txt3i{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/Oalh2MojUuk/social%20skills.jpg?unique=361b026a");
+  background-position: center;
+
+ 
+
+}
+.txt3{
+    height:60em;
+    width:100%;
+    background: rgb(220, 37, 37);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+    gap: 7em;
+    
+    
+}
+.txt3c{
+    height:40em;
+    width:30%; 
+ margin-bottom: 3em;
+    font-size:1.3em;
+}
+.txt3ii{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/OqtafYT5kTw/275/coding.jpg?unique=b9419f1a");
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+.txt3iii{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/hpjSkU2UYSU/digital%20marketing.jpg?unique=286987aa");
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+#tra1{
+font-size:1em;
+}
+.txt3iiii{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/iKdQCIiSMlQ/276/editing.jpg?unique=6f041c39");
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+.txttra{
+
+}
+.htra{
+    font-size:3em;
+}
+.txt3iiiii{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/pHPzdEHN6Os/graphic%20designer.jpg?unique=f7c9efd3");
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+.txt3iiiiii{
+    height:40em;
+    width:30%;
+  background-image: url("https://abhinavs-agency.odoo.com/unsplash/pHPzdEHN6Os/graphic%20designer.jpg?unique=f7c9efd3");
+  background-position: center;  
+  background-repeat: no-repeat;
+}
+#discover
+{
+    background-color: red;
+    text-align:center;
+}
+    @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 1em;
+        height: auto;
+    }
+
+    .navtxt {
+        margin: 0.5em;
+        width: auto;
+    }
+
+    #txt1 {
+        flex-direction: column;
+        gap: 1em;
+        height:40%;
+        width:100%;
+        
+    }
+
+    .box {
+        width: 100%;
+        font-size:0.8em;
+    }
+
+    #txt2 {
+        font-size: 1.9em;
+    }
+
+    .txt3 {
+        flex-direction: column;
+        height: 100em;
+    }
+   #txt{
+    flex-direction: column;
+    font-size:0.5em;
+   }
+   #img2{
+    height:50%;
+   }
+   h1{
+    font-size:1.4em;
+   }
+p{
+    font-size:0.9em;
+
+}
+#txt{
+    height:30%;
+    width:20%;
+    text-align:left;
+    background-color:whitesmoke;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#trai{
+    height: 40%;
+    width:15%;
+}
+#img2{
+    height: 30%;
+    width:100%;
+}
+.txt3i{
+    height:20em;
+    width:30%;
+}
+.nav{
+    width: 100%;
+    height: 40em;
+}
+.txttra{
+    font-size:1.7em;
+}
+#hcom{
+    font-size:0.8em;
+}
+}
